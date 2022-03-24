@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table { border-collapse: collapse; }
+        th, tr, td { border: 1px solid gray;}
+        th { text-align: left; }
+        .wid20per {width: 20%; }
+        .wid25per { width: 25%; }
+        .wid55per { width: 55%; }
+        .wid100per { width: 100%; }
+    </style>
+</head>
+<body>
+<table class="wid100per">
+    <caption>캡션임</caption>
+    <colgroup>
+        <col class="wid55per">
+        <col class="wid25per">
+        <col class="wid20per">
+    </colgroup>
+    <thead>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="3">Alfrdes Futterksite</td>
+        <td colspan="2">Maria Anders</td>
+    </tr>
+    <tr>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td colspan="3">Magazzini Alimentari Riunti</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
